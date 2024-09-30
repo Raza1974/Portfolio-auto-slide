@@ -1,23 +1,33 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Slider</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Colorful Image Slider</title>
+  <link rel="stylesheet" href="/main/styles.css">
 </head>
 <body>
 
   <header>
-    <nav>
-      <a href="./">Home</a>
-      <a href="/loops/portfolio.html">Portfolio</a>
-      <a href="/loops/projects.html">Projects</a>
-      <a href="/loops/contact.html">Contact</a>
-      <a href="/loops/services.html">Services</a>
-      <a href="/loops/about-us.html">About Us</a>
-      <a href="/loops/blog.html">Blog</a>
-    </nav>
+    <div class="header-container">
+      <!-- Logo in a separate container -->
+      <div class="logo-container">
+        <a href="./" class="logo">
+          <img src="/main/public/image/programmer.jpg" alt="Logo" />
+        </a>
+      </div>
+      <!-- Navigation links -->
+      <nav>
+        <a href="./">Home</a>
+        <a href="/loops/portfolio.html">Portfolio</a>
+        <a href="/loops/projects.html">Projects</a>
+        <a href="/loops/contact.html">Contact</a>
+        <a href="/loops/services.html">Services</a>
+        <a href="/loops/about-us.html">About</a>
+        <a href="/loops/blog.html">Blog</a>
+      </nav>
+    </div>
   </header>
 
   <!-- Main Slider Section -->
@@ -25,18 +35,13 @@
     <div class="list">
       <!-- Slide 1 -->
       <div class="items active">
-        <img src="/main/public/image/nextjs.jpg" alt="Profile">
+        <img src="/main/public/image/down.jpg" alt="Programmer">
         <div class="content">
-          <div class="author">My Portfolio</div>
+          <div class="author">Syed Mohammad Raza Rizvi</div>
           <div class="title"></div>
-          <p>Syed Mohammad Raza Rizvi’s Portfolio is a reflection of his deep commitment to delivering high-quality, user-focused solutions. Each project highlights his ability to merge technical expertise with creativity, showcasing a range of skills from front-end design to back-end development using technologies like HTML, CSS, JavaScript, TypeScript, and Next.js.
-
-           <br> His portfolio not only demonstrates his professionalism through clean code and well-structured designs but also reveals his personality—an eye for detail, a passion for innovation, and a focus on crafting intuitive, impactful digital experiences. Every project is a testament to his ability to solve real-world problems while maintaining an emphasis on scalability and user satisfaction.
-            
-            <br>This portfolio is a perfect balance of creativity and technical expertise, making it clear that Raza brings both precision and passion to every project he undertakes.</p>
+          <p>Web Developer</p>
         </div>
       </div>
-
       <!-- Slide 2 -->
       <div class="items">
         <img src="/main/public/image/education.jpg" alt="Education">
@@ -46,21 +51,19 @@
           <div class="topic">Engineering</div>
         </div>
       </div>
-
       <!-- Slide 3 -->
       <div class="items">
-        <img src="/main/public/image/skill.jpg" alt="Skills 3">
+        <img src="/main/public/image/skill.jpg" alt="Skills">
         <div class="content">
           <div class="author">Skills</div>
-          <div class="title">I excel at crafting elegant digital experiences for emerging businesses</div>
-          <div class="topic">Web Development, AI, TypeScript, JavaScript, HTML, CSS, Next.js</div>
+          <div class="title">Crafting elegant digital experiences</div>
+          <div class="topic">Web Development * AI Generative * TypeScript * JavaScript * HTML * CSS * Next.js</div>
         </div>
       </div>
-
       <!-- Slide 4 -->
       <div class="items">
-        <img src="/main/public/image/wep project.jpg" alt="Image 4">
-          <div class="content">
+        <img src="/main/public/image/wep project.jpg" alt="Project">
+        <div class="content">
           <div class="author">Project</div>
           <div class="title">My Projects</div>
           <div class="topic">
@@ -77,9 +80,7 @@
           </div>
         </div>
       </div>
-
     </div>
-
     <!-- Slider Buttons -->
     <div class="arrows">
       <button class="prev">Previous</button>
@@ -88,5 +89,8 @@
   </div>
 
   <script src="script.js"></script>
+  <footer>
+    <p>Prepared by Syed Mohammad Raza Rizvi © 2024</p>
+</footer>
 </body>
 </html>
